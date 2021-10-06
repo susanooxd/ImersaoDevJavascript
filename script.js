@@ -1,8 +1,8 @@
 var nome = "Jorge"
-var notaDoPrimeiroBimestre = 9
-var notaDoSegundooBimestre = 10
-var notaDoTerceiroBimestre = 8
-var notaDoQuartoBimestre = 6
+var notaDoPrimeiroBimestre =
+var notaDoSegundooBimestre = 
+var notaDoTerceiroBimestre = 
+var notaDoQuartoBimestre = 
 
 
 var notaFixada = notaFinal.toFixed(0)
