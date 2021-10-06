@@ -1,14 +1,15 @@
-var nome = "Jorge"
-var notaDoPrimeiroBimestre =
-var notaDoSegundooBimestre = 
-var notaDoTerceiroBimestre = 
-var notaDoQuartoBimestre = 
+function Converter()
+{
+  var valorElemento = document.getElementById ("valor" );
+  var valor = valorElemento.value;
+  var valorEmDolarNumerico = parseFloat(valor);  
+  var valorEmReal = valorEmDolarNumerico * 5 
+  console.log(valorEmReal);
 
-
-var notaFixada = notaFinal.toFixed(0)
-
-console.log("bem vindo" +  nome)
-console.log(notaFixada)
-
-  // Revisão
-// variáveis, strings, console.log, toFixed, operaçõs matemáticas, concatenação,
+  var elementoValorConvertido = 
+      document.getElementById ("valorConvertido") 
+  
+  var valorConvertido = "O resultado em Real é R$ " + valorEmReal
+  elementoValorConvertido.innerHTML = valorConvertido
+  
+}
